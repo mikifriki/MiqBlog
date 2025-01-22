@@ -25,6 +25,10 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version   = ">= 2.7.2", "< 4.0"
 
+  spec.add_dependency("csv", "~> 3.0")
+  spec.add_dependency 'base64'
+  spec.add_dependency 'bigdecimal'
+
   spec.add_runtime_dependency "jekyll", ">= 3.8", "< 5.0"
   spec.add_runtime_dependency "jekyll-feed", ">= 0.15.1", "<= 0.17"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1.0"
