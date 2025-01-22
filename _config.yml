@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
+baseurl: ""
 url: "blog.miq.ee"
 
 # THEME-SPECIFIC CONFIGURATION
