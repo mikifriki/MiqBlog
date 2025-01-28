@@ -61,7 +61,6 @@ Here are the main files of the template
 ├── pages
 |   ├── 404.md		       # To be displayed when url is wrong
 |   ├── about.md               # About example page
-|   ├── gallery.md             # Gallery page for your photos
 |   ├── portfolio.md	       # Portfolio page for your projects
 |   ├── search.md	       # Search page
 |   └── tags.md                # The tag page
