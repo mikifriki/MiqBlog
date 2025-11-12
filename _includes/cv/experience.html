@@ -1,0 +1,13 @@
+<section class="work">
+    <div class="header">
+        <h4>{{ include.item.company }}</h4>
+        <p>{{include.item.dates}}</p>
+    </div>
+    <p>{{ include.item.role }}</p>
+
+    <ul>
+        {% for bullet in include.item.points %}
+        <li>{{ bullet }}</li>
+        {% endfor %}
+    </ul>
+</section>

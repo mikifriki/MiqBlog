@@ -5,7 +5,7 @@ url: "blog.miq.ee"
 # THEME-SPECIFIC CONFIGURATION
 title: Miq                                              # site's title
 description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+avatar:                                                 # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
@@ -41,11 +41,14 @@ comments:
 paginate: 5
 paginate_path: "/blog/page:num"
 
-# PORTFOLIO
 collections:
+  # PORTFOLIO
   portfolio:
     output: true
     permalink: /:collection/:name
+  # CV
+  experience:
+    output: false
 
 # BUILD SETTINGS
 sass:
@@ -56,3 +59,6 @@ exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+
+# CV
+me_image: assets/img/header/triangular.jpeg

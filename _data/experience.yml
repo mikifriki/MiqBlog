@@ -1,0 +1,24 @@
+- company: CGI
+  role: Software Engineer
+  dates: Dec 2020 - present
+  points:
+    - Promoted from Junior Software Developer to Software Engineer (Mar 2023).
+    - Assisted development of a E-invoicing solution
+    - Maintained and enhanced major Java projects ranging from a enterprise file transfer system supporting mission-critical operations to monitoring platforms.
+    - Assisted with migration of large Java financial applications to a modernized platform
+    - Upgraded a custom Content Management System, modernizing its features and improving maintainability.
+
+- company: Baltnet Communications OÜ.
+  role: Software Engineer
+  dates: Jun 2024 - Oct 2024
+  points:
+    - IoT system development using C# and the Blazor framework for front-end
+    - Used tracer bullet approach to develop a demo in a short timespan
+
+- company: NetGroup Ltd
+  role: Junior Front-end developer
+  dates: Jul 2019 - Jan 2020
+  points:
+    - Created mockups for clients
+    - Creating Web Components with StencilJs
+    - Theming Bootstrap components according to design

@@ -1,0 +1,20 @@
+$base-spacing: 1.25em;
+$li-spacing: 0.3em;
+.work {
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    p {
+      text-align: center;
+      margin-left: $base-spacing;
+      margin-bottom: 0px;
+    }
+  }
+
+  li {
+    margin-bottom: $li-spacing
+  }
+
+}

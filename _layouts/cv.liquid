@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+{% include cv/intro.html %}
+
+<div style="margin-top: 40px">
+    <h3>Work Experience</h3>
+
+    <div style="display: flex; flex-wrap: wrap">
+        {% for job in site.data.experience %}
+            {% include cv/experience.html item=job %}
+        {% endfor %}
+    </div>
+
+</div>
